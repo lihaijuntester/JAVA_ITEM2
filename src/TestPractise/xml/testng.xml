@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1">
+    <test name="test12">
+        <groups>
+            <run>
+                <include name="function"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestPractise.TestNgExaple">
+                <methods>
+                    <!--此节点主要控制case执行的顺序-->
+                    <include name="Test1"/>
+                    <include name="Test2"/>
+                    <include name="Test3"/>
+                    <include name="Test4"/>
+                    <include name="Test5"/>
+                    <include name="Test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

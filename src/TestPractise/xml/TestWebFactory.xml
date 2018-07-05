@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--组里面可以定义组;定义测试的数据可以从xml文件的parameter里来-->
+<suite name="TestWebServer">
+    <test name="T1">
+        <classes>
+            <class name="TestPractise.WebTestFactory"/>
+            <class name="TestPractise.WebTest"/>
+        </classes>
+    </test>
+</suite>

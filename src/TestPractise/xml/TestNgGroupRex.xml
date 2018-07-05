@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!--主要是使用正则表达式进行匹配组来执行cases-->
+<suite name="Suite2">
+    <test name="test12">
+        <groups>
+            <run>
+                <include name="window.*"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestPractise.TestNgExaple">
+                <!--<methods>-->
+                    <!--&lt;!&ndash;此节点主要控制case执行的顺序&ndash;&gt;-->
+                    <!--<include name="Test1"/>-->
+                    <!--<include name="Test2"/>-->
+                    <!--<include name="Test3"/>-->
+                    <!--<include name="Test4"/>-->
+                    <!--<include name="Test5"/>-->
+                    <!--<include name="Test"/>-->
+                <!--</methods>-->
+            </class>
+        </classes>
+    </test>
+</suite>

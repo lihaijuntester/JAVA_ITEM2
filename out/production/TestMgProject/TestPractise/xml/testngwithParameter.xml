@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--组里面可以定义组;定义测试的数据可以从xml文件的parameter里来-->
+<suite name="Suite3" thread-count="3">
+    <parameter name="test-name" value="TransforCase1"/>
+    <parameter name="before-do" value="Testng is start just now"/>
+    <test name="test12">
+        <classes>
+            <class name="TestPractise.TestNgExaple"/>
+        </classes>
+    </test>
+</suite>
